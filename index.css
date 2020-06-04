@@ -1,38 +1,33 @@
 
 *{
     box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    font:Chelsea Market;
+        font:Chelsea Market;
+        max-width:100%;
     }
-  head{
-      max-width: 100%; max-height: 50%;
-  }
+       
   nav{
         display: inline-block;
-        max-width: 1300px;
-        max-height: 100px;
- }
+        max-width: 100%;
+         }
 
 
  
  .header-content{
-display:inline-block;
- }
+    display:inline-block;
+     }
  .header-left{
-     width:10%;
-     border-color: orange;
-     border-width:10px;
-     border-radius:50%;
-     border-style:solid;
+     width:25%;
+          }
+     .header-left img{
+         border-color:white;
+         border-width:10px;
+         border-radius: 50%;
+         border-style:solid;
      }
      .header-right{
-         offset: 0;
          width:50%;
          text-align:center;
-         margin:auto;
-     }
+         text-justify: right;}
      h1{
          font-size: 45px;
      }
@@ -54,7 +49,10 @@ display:inline-block;
   .content-one p{
       margin-bottom:30px;
   }
-  content-img{
-      width:32px;
-      margin: 0 auto;
-  }
+  .content-two{
+      width:100px
+        }
+  .content-img{
+      width:100px;
+     margin:auto;
+      }

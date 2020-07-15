@@ -2,7 +2,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
 del, dfn, em, img, ins, kbd, q, s, samp,  
-small, strike, strong, sub, sup, tt, var,  
+small, strike, sub, sup, tt, var,  
 b, u, i, center,  
 dl, dt, dd, ol, ul, li,  
 fieldset, form, label, legend,  
@@ -32,7 +32,12 @@ html {
     width: 100%vw;
     height: 100%vh;
 }
-
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+header {
+    width: 100vw;
+}
 nav {
     margin: auto;
     text-align: center;
@@ -43,6 +48,7 @@ nav {
     margin: auto;
     border-radius: 1.4rem;
     border: .5rem solid white;
+    color: white;
 }
 
 .learn{
@@ -51,6 +57,7 @@ nav {
     margin-right:10rem;
     border-radius: 1.4rem;
     border: .5rem solid white;
+    color: white;
 }
 
 .volunteer {
@@ -58,6 +65,7 @@ nav {
     margin: auto;
     border-radius: 1.4rem;
     border: .5rem solid white;
+    color: white;
 }
 
 #top-pic {
@@ -70,7 +78,7 @@ nav {
 
 .head-text {
     display: inline-block;
-    width:30rem;
+    width:45rem;
     padding-bottom:3rem;
     font-size: 1.5rem;
 
@@ -78,6 +86,7 @@ nav {
 h1 {
     font-size: 3rem;
     text-align: center;
+    font-family: 'Chelsea Market', cursive;
 
 }
 .head-text p{
@@ -105,7 +114,7 @@ h1 {
     padding: 2rem;
     background:#DDB9A3;
     font-size: 1.2rem;
-    margin:2rem:
+    margin:2rem;
 
 }
 
